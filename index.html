@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<title>Pizzeria Bella Giornata</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+
+<body onload="getNewRandomColor()">
+<script src="random.js"></script>
+<a href="index.html" style="text-decoration:none"><h1 id="Title">Pizzeria Bella Giornata</h1></a>
+<img src="italia.png" class="thumbnail" alt=""  style="max-width:100%;height:45px;top:-20px;">
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Bine ati venit pe site-ul pizzeriei Bella Giornata!</p>
+		<p>Aici veti gasi informatii despre pizzerie, alaturi de meniul nostru!</p>
+		<p>Speram sa aveti o experienta placuta!</p>
+		<img src="italia.png" class="thumbnail" alt=""  style="max-width:100%;height:45px;top:-20px;">
+  </div>
+</div>
+<script src='modal.js'></script>
+<p id="time"></p>
+<script src='data.js'></script>
+<div class="bara" onload="getNewRandomColor()">
+<div class="dropdown">
+  <button class="dropbtn">Meniu Pizza
+  </button>
+  <div class="dropdown-content">
+    <a href="pizza1.html">Pizze Traditionale</a>
+    <a href="pizza2.html">Pizze Exotice</a>
+  </div>
+ </div>
+
+<div class="dropdown">
+    <button class="dropbtn">Alte Preparate
+    </button>
+    <div class="dropdown-content">
+      <a href="desert.html">Deserturi</a>
+
+    </div>
+</div>
+
+  </div>
+ <h2 id="oferta" style="font-size:3vw;">OFERTA LUNII!!!</h2>
+ <div class="prezentare">
+	<p style="font-size:1.5vw;"> La oricare 2 pizza de acelasi fel comandate primiti una gratuit!</p>
+	<img src="oferta.jpg" class="center" alt=""  style="max-width:100%;height:auto;">
+ </div>
+
+ <h2 id="farablink" style="font-size:3vw;">Prezentarea restaurantului</h2>
+ <div class="restaurant">
+	<span class="r" style="font-size:1.5vw;">-Restaurantul Bella Giornata tinteste inspre a aduce atmosfera unei pizzerii clasice italienesti, imbunatatita cu elemente exotice si cu o varietate de retete gustoase.</span>
+	<p></p>
+	<span class="r" style="font-size:1.5vw;">-Ingredientele pe care le folosim sunt de cea mai inalta calitate, fiind atent selectionate de la producatori cunoscuti si de incredere.</span>
+	<p></p>
+	<span class="r" style="font-size:1.5vw;">-De asemenea, asiguram in permanenta prospetimea acestor ingrediente, pentru o experienta cat mai apropiata de cea autentica.</span>
+	<p></p>
+	<span class="r" style="font-size:1.5vw;">-Principalul nostru scop este de a crea un fel de fuziune intre bucataria traditionala italieneasca si elemente ale bucatariei moderne, pentru a crea o experienta de neuitat.</span>
+	<p></p>
+	<span class="r" style="font-size:1.5vw;">-In consecinta, pe langa preparatele traditionale precum pizza si pastele, servim si alte preparate, precum deserturi.</span>
+ </div>
+ <footer>
+	<div id="jos">
+		<h5 id="text" class="dreapta" style="font-size:1vw;">Contact<br>Tel:0248543128<i class="fa fa-phone"></i>
+
+		</h5>
+	</div>
+	<div id="jos1">
+
+		<h5 class="stanga">Adresa<br>Strada Negru Voda, Campulung, Arges<i class="fa fa-institution"></i></h5>
+	</div>
+ </footer>
+</body>
+
+</html>

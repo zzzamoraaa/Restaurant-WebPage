@@ -1,0 +1,288 @@
+#Title{
+  text-align: center;
+  color:#000000;
+    animation-name: fadein;
+    animation-duration: 0.5s;
+    animation-delay:0s;
+    animation-iteration-count: 1;
+	font-family: "Unispace";
+}
+@keyframes fadein {
+  0% { opacity: 0; }
+  20% { opacity: 0.15; }
+  40% { opacity: 0.3; }
+  60% { opacity: 0.5; }
+  70% {opacity: 0.7;  }
+  80% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
+@keyframes blink {
+  0% { opacity: 0; }
+  20% { opacity: 0.15; color:yellow; }
+  40% { opacity: 0.3; color:red; }
+  60% { opacity: 0.5;color:yellow; }
+  70% {opacity: 0.7; color:red; }
+  80% { opacity: 0.9;color:yellow;  }
+  100% { opacity: 1;color:red;  }
+}
+
+@keyframes colorchange {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+  }
+}
+.bara {
+  overflow: hidden;
+  background-color: #bad4c1;
+  height:50px;
+}
+.thumbnail:hover {
+    position:relative;
+    transform: scale(1.5);
+    display:block;
+}
+.bara a {
+  float: left;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 13px;
+  border: none;
+  outline: none;
+  color: #131413;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: "Unispace";
+  margin:0px;
+  display: inline;
+}
+
+.bara a:hover, .dropdown:hover .dropbtn {
+  background-color: #db6363;
+  font-size: 110%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  font-family:"Unispace";
+  color: black;
+  padding: 12px 34px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  font-size:110%;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+#oferta{
+  font-family: "Unispace";
+  border-bottom: 2px solid;
+  color: red;
+  font-size: 60px;
+  text-align: center;
+  animation-name: blink;
+  animation-duration: 0.4s;
+  animation-delay:0s;
+  animation-iteration-count: infinite;
+}
+#farablink{
+  font-family: "Unispace";
+  border-bottom: 2px solid;
+  color: red;
+  font-size: 60px;
+  text-align: center;
+}
+#text{
+  font-family: "Unispace";
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+}
+#time{
+  font-family: "Unispace";
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+}
+#text1{
+  font-family: "Unispace";
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+}
+.prezentare{
+	display: block;
+}
+div.prezentare p{
+	font-family: "Unispace";
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+}
+.pizze{
+	display: block;
+}
+div.pizze p{
+	font-family: "Unispace";
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+}
+div.pizze h6{
+	font-family: "Unispace";
+  font-size: 1.5vw;
+  text-align: center;
+}
+div.pizze p::before {
+  content: "Ingrediente:";
+  font-family: "Unispace";
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+}
+div.pizze h6::after {
+  content: " (TVA inclus)";
+  font-family: "Unispace";
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.restaurant{
+display: block;
+}
+.restaurant .r{
+  font-family: "Unispace";
+  color: black;
+  font-size: 1.5vw;
+  text-align: left;
+}
+footer
+{
+  background-color:#bad4c1;
+  font-size: 80px;
+  height: 7.5vw;
+}
+#jos{
+	float:right;
+	display:block;
+}
+#jos1{
+	float:left;
+	display:block;
+}
+.dreapta{
+  padding-right:50px;
+  color:black;
+  font-size:1.5vw;
+  text-align: center;
+  font-family:"Unispace";
+}
+.stanga{
+	padding-right:100px;
+  color:black;
+  font-size:1vw;
+  text-align: center;
+  font-family:"Unispace";
+}
+.stanga.h5{
+	padding-right:100px;
+  color:black;
+  font-size:1vw;
+
+  text-align: center;
+  font-family:"Unispace";
+}
+.modal {
+  display:block;
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+  background-color: #e3e3c8;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+  font-family:"Unispace";
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
